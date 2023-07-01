@@ -1,4 +1,4 @@
-import fetch from "node-fetch";
+const fetch = require("node-fetch");
 
 const query = `
   query getUserContestRankingHistory($username: String!) {
