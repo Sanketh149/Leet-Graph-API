@@ -1,3 +1,5 @@
+import fetch from "node-fetch";
+
 const query = `
   query getUserContestRankingHistory($username: String!) {
     userContestRankingHistory(username: $username) {
